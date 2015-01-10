@@ -7,7 +7,7 @@ Author: Joseph C Dolson
 Author URI: http://www.joedolson.com
 Text Domain: access-monitor
 Domain Path: lang
-Version: 1.0.0
+Version: 1.0.1
 */
 /*  Copyright 2014-2015  Joe Dolson (email : joe@joedolson.com)
 
@@ -36,7 +36,7 @@ define( 'WAVE_API_URL', 'http://wave.webaim.org/api/request' );
 require_once( 't/tenon.php' );
 require_once( 't/wave.php' );
 
-$am_version = '0.1.0';
+$am_version = '1.0.1';
 
 add_filter( 'the_content', 'am_pass_query' );
 function am_pass_query( $content ) {
@@ -739,24 +739,24 @@ function am_report() {
 				<legend>" . __( 'Set Accessibility Test Options', 'access-monitor' ) . "</legend>
 				<p>
 					<label for='certainty'>" . __( 'Minimum Certainty', 'access-monitor' ) . "</label>
-					<select name='certainty' id='certainty'>
+					<select name='certainty' id='certainty' aria-describedby='certainty-desc'>
 						<option value='0'>0%</option>
 						<option value='20'>20%</option>
 						<option value='40'>40%</option>
 						<option value='60'>60%</option>
 						<option value='80'>80%</option>
 						<option value='100'>100%</option>
-					</select>
+					</select> <span id='certainty-desc'>" . __( 'A higher percentage means only issues that Tenon.io has higher confidence in. Lower numbers mean more issues reported.', 'access-monitor' ) . "</span>
 				</p>
 				<p>
 					<label for='priority'>" . __( 'Minimum Priority', 'access-monitor' ) . "</label>
-					<select name='priority' id='priority'>
+					<select name='priority' id='priority' aria-describedby='priority-desc'>
 						<option value='0'>0%</option>
 						<option value='20'>20%</option>
 						<option value='40'>40%</option>
 						<option value='60'>60%</option>
 						<option value='80'>80%</option>
-					</select>
+					</select> <span id='priority-desc'>" . __( 'A higher percentage means only issues that Tenon.io considers more important to fix. Lower numbers mean more issues reported.', 'access-monitor' ) . "</span>
 				</p>
 				<p>
 					<label for='level'>" . __( 'Minimum WCAG Level', 'access-monitor' ) . "</label>
@@ -941,11 +941,12 @@ function am_show_support_box() {
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<div>
 					<input type="hidden" name="cmd" value="_s-xclick" />
-					<input type="hidden" name="hosted_button_id" value="8490399" />
-					<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="Donate" />
-					<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+					<input type="hidden" name="hosted_button_id" value="B75RYAX9BMX6S" />
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt=	"Donate" />
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 					</div>
 				</form>
+				
 			</li>
 			<li><a href="http://profiles.wordpress.org/users/joedolson/"><?php _e('Check out my other plug-ins','access-monitor'); ?></a></li>
 			<li><a href="http://wordpress.org/extend/plugins/access-monitor/"><?php _e('Rate this plug-in','access-monitor'); ?></a></li>		
@@ -953,6 +954,19 @@ function am_show_support_box() {
 		</div>
 		</div>
 	</div>
+	<div class="meta-box-sortables">
+		<div class="postbox">
+		<h3><?php _e('Disclaimer','access-monitor'); ?></h3>
+		<div id="support" class="inside resources">
+			<p>
+				<?php _e( 'Access Monitor uses Tenon.io. The Tenon.io API is designed to examine aspects of accessibility that are machine-testable in a reliable way. No errors does not mean that your site is accessible.', 'access-monitor' ); ?>
+			</p>
+			<p>
+				<?php echo "<a href='http://tenon.io/documentation/what-tenon-tests.php'>" . __( 'What Tenon Tests', 'access-monitor' ) . "</a>"; ?>
+			</p>
+		</div>
+		</div>
+	</div>	
 
 </div>
 </div>
