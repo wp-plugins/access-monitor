@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Access Monitor package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Access Monitor 1.0.1\n"
+"Project-Id-Version: Access Monitor 1.0.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/access-monitor\n"
-"POT-Creation-Date: 2015-01-17 15:26:01+00:00\n"
+"POT-Creation-Date: 2015-01-08 17:07:19+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,407 +20,352 @@ msgstr ""
 msgid "%s accessibility issues identified."
 msgstr ""
 
-#: access-monitor.php:128
-msgid "Read more:"
-msgstr ""
-
-#: access-monitor.php:135
+#: access-monitor.php:134
 msgid "Certainty: %s"
 msgstr ""
 
-#: access-monitor.php:136
+#: access-monitor.php:135
 msgid "Priority: %s"
 msgstr ""
 
-#: access-monitor.php:199
+#: access-monitor.php:195
 msgid "A11y Check"
 msgstr ""
 
-#: access-monitor.php:267
+#: access-monitor.php:263
 msgid "accessibility report"
 msgstr ""
 
-#: access-monitor.php:268
+#: access-monitor.php:264
 msgid "accessibility reports"
 msgstr ""
 
-#: access-monitor.php:269 access-monitor.php:301
+#: access-monitor.php:265 access-monitor.php:297
 msgid "Accessibility Report"
 msgstr ""
 
-#: access-monitor.php:270
+#: access-monitor.php:266
 msgid "Accessibility Reports"
 msgstr ""
 
-#: access-monitor.php:275
+#: access-monitor.php:271
 msgid "Add New"
 msgstr ""
 
-#: access-monitor.php:276
+#: access-monitor.php:272
 msgid "Create New %s"
 msgstr ""
 
-#: access-monitor.php:277
+#: access-monitor.php:273
 msgid "Modify %s"
 msgstr ""
 
-#: access-monitor.php:278
+#: access-monitor.php:274
 msgid "New %s"
 msgstr ""
 
-#: access-monitor.php:279
+#: access-monitor.php:275
 msgid "View %s"
 msgstr ""
 
-#: access-monitor.php:280
+#: access-monitor.php:276
 msgid "Search %s"
 msgstr ""
 
-#: access-monitor.php:281
+#: access-monitor.php:277
 msgid "No %s found"
 msgstr ""
 
-#: access-monitor.php:282
+#: access-monitor.php:278
 msgid "No %s found in Trash"
 msgstr ""
 
-#: access-monitor.php:302
+#: access-monitor.php:298
 msgid "About this Report"
 msgstr ""
 
-#: access-monitor.php:303
+#: access-monitor.php:299
 msgid "Related Reports"
 msgstr ""
 
-#: access-monitor.php:310
+#: access-monitor.php:306
 msgid "JSON Submission Data"
 msgstr ""
 
-#: access-monitor.php:336
+#: access-monitor.php:332
 msgid "No related reports."
 msgstr ""
 
-#: access-monitor.php:347
+#: access-monitor.php:343
 msgid "%s unique errors"
 msgstr ""
 
-#: access-monitor.php:356
+#: access-monitor.php:352
 msgid "Default"
 msgstr ""
 
-#: access-monitor.php:360
+#: access-monitor.php:356
 msgid "URLs Tested"
 msgstr ""
 
-#: access-monitor.php:361
+#: access-monitor.php:357
 msgid "Test Parameters"
 msgstr ""
 
-#: access-monitor.php:362
+#: access-monitor.php:358
 msgid "Tenon Request Parameters"
 msgstr ""
 
-#: access-monitor.php:394
+#: access-monitor.php:390
 msgid "Scheduled Accessibility Report on %s"
 msgstr ""
 
-#: access-monitor.php:395
+#: access-monitor.php:391
 msgid "View accessibility report: %s"
 msgstr ""
 
-#: access-monitor.php:511
+#: access-monitor.php:507
 msgid "Errors"
 msgstr ""
 
-#: access-monitor.php:512
+#: access-monitor.php:508
 msgid "Schedule"
 msgstr ""
 
-#: access-monitor.php:513
+#: access-monitor.php:509
 msgid "Level"
 msgstr ""
 
-#: access-monitor.php:532
+#: access-monitor.php:528
 msgid "View Original Test"
 msgstr ""
 
-#: access-monitor.php:538 access-monitor.php:754
+#: access-monitor.php:534 access-monitor.php:731
 msgid "One-time report"
 msgstr ""
 
-#: access-monitor.php:560
+#: access-monitor.php:556
 msgid "Results from %d pages tested"
 msgstr ""
 
-#: access-monitor.php:594 access-monitor.php:597
+#: access-monitor.php:589 access-monitor.php:592
 msgid "Errors found on %s."
 msgstr ""
 
-#: access-monitor.php:594
+#: access-monitor.php:589
 msgid "The %d errors found on this page were also found on other pages tested."
 msgstr ""
 
-#: access-monitor.php:601 access-monitor.php:612
+#: access-monitor.php:596 access-monitor.php:607
 msgid "Issue"
 msgstr ""
 
-#: access-monitor.php:602 access-monitor.php:613
+#: access-monitor.php:597 access-monitor.php:608
 msgid "Certainty"
 msgstr ""
 
-#: access-monitor.php:603 access-monitor.php:614
+#: access-monitor.php:598 access-monitor.php:609
 msgid "Priority"
 msgstr ""
 
-#: access-monitor.php:604 access-monitor.php:615
+#: access-monitor.php:599 access-monitor.php:610
 msgid "Source"
 msgstr ""
 
-#: access-monitor.php:605 access-monitor.php:616
+#: access-monitor.php:600 access-monitor.php:611
 msgid "Xpath"
 msgstr ""
 
-#: access-monitor.php:623
+#: access-monitor.php:618
 msgid "No errors found on %s."
 msgstr ""
 
-#: access-monitor.php:638
+#: access-monitor.php:633
 msgid "Once Weekly"
 msgstr ""
 
-#: access-monitor.php:642
+#: access-monitor.php:637
 msgid "Once Monthly"
 msgstr ""
 
-#: access-monitor.php:654
+#: access-monitor.php:649
 msgid "Access Monitor Settings Updated"
 msgstr ""
 
-#: access-monitor.php:669
-msgid "You must <a href='%s'>enter a Tenon API key</a> to use Access Monitor."
-msgstr ""
-
-#: access-monitor.php:685
+#: access-monitor.php:662
 msgid "Tenon API Key"
 msgstr ""
 
-#: access-monitor.php:694
+#: access-monitor.php:671
 msgid "Update Settings"
 msgstr ""
 
-#: access-monitor.php:706
+#: access-monitor.php:683
 msgid "Sign up with Tenon to get an API key"
 msgstr ""
 
-#: access-monitor.php:706
-msgid "Add your API key"
-msgstr ""
-
-#: access-monitor.php:723
+#: access-monitor.php:700
 msgid "Report Name"
 msgstr ""
 
-#: access-monitor.php:727
+#: access-monitor.php:704
 msgid "URL or post ID to test"
 msgstr ""
 
-#: access-monitor.php:735
+#: access-monitor.php:712
 msgid "Most recent page"
 msgstr ""
 
-#: access-monitor.php:743
+#: access-monitor.php:720
 msgid "Most recent post"
 msgstr ""
 
-#: access-monitor.php:748
+#: access-monitor.php:725
 msgid "Add a test URL"
 msgstr ""
 
-#: access-monitor.php:749
+#: access-monitor.php:726
 msgid "Remove last test"
 msgstr ""
 
-#: access-monitor.php:752
+#: access-monitor.php:729
 msgid "Schedule report"
 msgstr ""
 
-#: access-monitor.php:755
+#: access-monitor.php:732
 msgid "Weekly"
 msgstr ""
 
-#: access-monitor.php:756
+#: access-monitor.php:733
 msgid "Monthly"
 msgstr ""
 
-#: access-monitor.php:759
+#: access-monitor.php:736
 msgid "Tenon report options"
 msgstr ""
 
-#: access-monitor.php:762
+#: access-monitor.php:739
 msgid "Set Accessibility Test Options"
 msgstr ""
 
-#: access-monitor.php:764
+#: access-monitor.php:741
 msgid "Minimum Certainty"
 msgstr ""
 
-#: access-monitor.php:766 access-monitor.php:777
-msgid "More issues"
-msgstr ""
-
-#: access-monitor.php:771 access-monitor.php:781
-msgid "Fewer issues"
-msgstr ""
-
-#: access-monitor.php:772
-msgid "Higher values means Tenon.io has more confidence in the results."
-msgstr ""
-
-#: access-monitor.php:775
+#: access-monitor.php:752
 msgid "Minimum Priority"
 msgstr ""
 
-#: access-monitor.php:782
-msgid "Higher values means Tenon.io lists this as a high priority issue."
-msgstr ""
-
-#: access-monitor.php:785
+#: access-monitor.php:762
 msgid "Minimum WCAG Level"
 msgstr ""
 
-#: access-monitor.php:793
+#: access-monitor.php:770
 msgid "User-agent String"
 msgstr ""
 
-#: access-monitor.php:804
+#: access-monitor.php:781
 msgid "Viewport Size"
 msgstr ""
 
-#: access-monitor.php:815
+#: access-monitor.php:792
 msgid "System ID"
 msgstr ""
 
-#: access-monitor.php:819
+#: access-monitor.php:796
 msgid "Report ID"
 msgstr ""
 
-#: access-monitor.php:823
+#: access-monitor.php:800
 msgid "Store test results at Tenon.io"
 msgstr ""
 
-#: access-monitor.php:828 access-monitor.php:897
+#: access-monitor.php:805 access-monitor.php:874
 msgid "Create Accessibility Report"
 msgstr ""
 
-#: access-monitor.php:884
+#: access-monitor.php:861
 msgid "No accessibility reports created yet."
 msgstr ""
 
-#. #-#-#-#-#  plugin.pot (Access Monitor 1.0.1)  #-#-#-#-#
+#. #-#-#-#-#  plugin.pot (Access Monitor 1.0.0)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
-#: access-monitor.php:892
+#: access-monitor.php:869
 msgid "Access Monitor"
 msgstr ""
 
-#: access-monitor.php:912
+#: access-monitor.php:889
 msgid "Recent Accessibility Reports"
 msgstr ""
 
-#: access-monitor.php:925
+#: access-monitor.php:902
 msgid "Access Monitor Settings"
 msgstr ""
 
-#: access-monitor.php:935
+#: access-monitor.php:912
 msgid "Get Plug-in Support"
 msgstr ""
 
-#: access-monitor.php:954
+#: access-monitor.php:931
 msgid "Support this Plug-in"
 msgstr ""
 
-#: access-monitor.php:963
+#: access-monitor.php:940
 msgid ""
 "<a href=\"http://www.joedolson.com/donate/\">Make a donation today!</a> "
 "Every donation counts - donate $2, $10, or $100 and help me keep this plug-"
 "in running!"
 msgstr ""
 
-#: access-monitor.php:974
+#: access-monitor.php:950
 msgid "Check out my other plug-ins"
 msgstr ""
 
-#: access-monitor.php:975
+#: access-monitor.php:951
 msgid "Rate this plug-in"
 msgstr ""
 
-#: access-monitor.php:982
-msgid "Disclaimer"
-msgstr ""
-
-#: access-monitor.php:985
-msgid ""
-"Access Monitor uses Tenon.io. The Tenon.io API is designed to examine "
-"aspects of accessibility that are machine-testable in a reliable way. No "
-"errors does not mean that your site is accessible."
-msgstr ""
-
-#: access-monitor.php:988
-msgid "What Tenon Tests"
-msgstr ""
-
-#: access-monitor.php:996
-msgid "Get Help"
-msgstr ""
-
-#: access-monitor.php:999
-msgid ""
-"Access Monitor has two parts: the plug-in, and the API it interacts with. If "
-"your issue is in the plug-in, use the <a href=\"%s\">support form</a>. If "
-"your issue is with the API or on tenon.io, <a href=\"mailto:support@tenon.io"
-"\">email Tenon support</a>. Thanks!"
-msgstr ""
-
-#: access-monitor.php:1015
+#: access-monitor.php:967
 msgid "Access Monitor > Add New Report"
 msgstr ""
 
-#: access-monitor.php:1015
+#: access-monitor.php:967
 msgid "Add Report"
 msgstr ""
 
-#: access-monitor.php:1099
+#: access-monitor.php:1051
 msgid ""
 "Please read the FAQ and other Help documents before making a support request."
 msgstr ""
 
-#: access-monitor.php:1104
+#: access-monitor.php:1056
 msgid ""
 "Thank you for supporting the continuing development of this plug-in! I'll "
 "get back to you as soon as I can."
 msgstr ""
 
-#: access-monitor.php:1106
+#: access-monitor.php:1058
 msgid ""
 "I'll get back to you as soon as I can, after dealing with any support "
 "requests from plug-in supporters."
 msgstr ""
 
-#: access-monitor.php:1117
+#: access-monitor.php:1069
 msgid ""
 "I have <a href=\"http://www.joedolson.com/donate/\">made a donation to help "
 "support this plug-in</a>."
 msgstr ""
 
-#: access-monitor.php:1123
+#: access-monitor.php:1075
 msgid "Send Support Request"
 msgstr ""
 
-#: access-monitor.php:1126
+#: access-monitor.php:1078
 msgid ""
 "The following additional information will be sent with your support request:"
 msgstr ""
 
-#: access-monitor.php:1145
+#: access-monitor.php:1097
 msgid "Re-run this test"
 msgstr ""
 
